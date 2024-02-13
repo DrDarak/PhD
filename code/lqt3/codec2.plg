@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: codec2 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\windows\TEMP\RSP11E5.TMP" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/codec2.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\develop\codec2\blocks.c"
+"C:\develop\codec2\huff.c"
+"C:\develop\codec2\jpeg.c"
+"C:\develop\codec2\misc.c"
+"C:\develop\codec2\qtree.c"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP11E5.TMP" 
+Creating command line "link.exe -lib /nologo /out:"Release\codec2.lib"  .\Release\blocks.obj .\Release\huff.obj .\Release\jpeg.obj .\Release\misc.obj .\Release\qtree.obj "
+<h3>Output Window</h3>
+Compiling...
+blocks.c
+huff.c
+jpeg.c
+C:\develop\codec2\jpeg.c(393) : warning C4018: '<' : signed/unsigned mismatch
+C:\develop\codec2\jpeg.c(1264) : warning C4101: 'temp2' : unreferenced local variable
+C:\develop\codec2\jpeg.c(1264) : warning C4101: 'nbits' : unreferenced local variable
+C:\develop\codec2\jpeg.c(1264) : warning C4101: 'temp' : unreferenced local variable
+misc.c
+qtree.c
+Creating library...
+
+
+
+<h3>Results</h3>
+codec2.lib - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
